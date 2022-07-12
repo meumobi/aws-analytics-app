@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "awsanalyticsapp049fc0b5": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2rnhlk57o6wrv",
+          "type": "manual"
+        }
       }
     }
   }
