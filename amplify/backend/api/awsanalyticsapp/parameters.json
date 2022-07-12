@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "awsanalyticsapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2022-07-11T13:27:33.808Z"
+}

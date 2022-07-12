@@ -1,6 +1,6 @@
 # FUP
 
-## 20220701 #1
+## 20220701
 
 I'm [setting up an AWS backend and integrating that backend with your Angular web app](https://docs.amplify.aws/start/q/integration/angular/):
 
@@ -38,6 +38,22 @@ Adding backend environment dev to AWS Amplify app: d2rnhlk57o6wrv
 ⠋ Initializing project in the cloud...
 ...
 %
+```
+
+## 20220711
+
+> By default, the Amazon CLI uses the settings found in the profile named default. To use alternate settings, you can create and reference additional profiles
+
+[Source: AWS Official docs - Configuration and credential file settings](https://docs.amazonaws.cn/en_us/cli/latest/userguide/cli-configure-files.html)
+
+```sh
+% aws configure list                                                                  (main)aws-analytics-app
+      Name                    Value             Type    Location
+      ----                    -----             ----    --------
+   profile                <not set>             None    None
+access_key     ****************YVVC shared-credentials-file
+secret_key     ****************edfF shared-credentials-file
+    region                eu-west-1      config-file    ~/.aws/config
 ```
 
 ### CommonJS dependencies

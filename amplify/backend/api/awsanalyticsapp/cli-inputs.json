@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "awsanalyticsapp",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/vdias38/Dvpt/PROJECTS/aws-analytics-app/amplify/backend/api/awsanalyticsapp/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2023-07-11T13:27:28.060Z",
+      "keyDescription": "aws-analytics"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": []
+  }
+}
