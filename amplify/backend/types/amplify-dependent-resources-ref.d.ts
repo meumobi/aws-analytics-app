@@ -16,5 +16,12 @@ export type AmplifyDependentResourcesAttributes = {
             "AppClientIDWeb": "string",
             "AppClientID": "string"
         }
+    },
+    "analytics": {
+        "awsanalyticsapp": {
+            "Region": "string",
+            "Id": "string",
+            "appName": "string"
+        }
     }
 }

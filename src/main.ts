@@ -4,15 +4,11 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
-import { Amplify } from 'aws-amplify';
+import { Amplify, Analytics } from 'aws-amplify';
 import awsmobile from './aws-exports';
 
-Amplify.configure({
-  ...awsmobile,
-  Analytics: {
-    disabled: true,
-  },
-});
+Amplify.configure(awsmobile);
+// Analytics.enable();
 
 if (environment.production) {
   enableProdMode();

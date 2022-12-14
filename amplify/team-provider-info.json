@@ -13,7 +13,8 @@
     },
     "categories": {
       "auth": {
-        "awsanalyticsapp049fc0b5": {}
+        "awsanalyticsapp049fc0b5": {},
+        "true": {}
       },
       "hosting": {
         "amplifyhosting": {
